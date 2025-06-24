@@ -1,0 +1,833 @@
+body {
+    width: 390px;
+    background-color: #f5f3f0;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+.header .phone {
+    margin-left: 150px;
+    padding-top: 27px;
+}
+.header .phone a {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.header .hamburger {
+    background-image: url("../img/бургер.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.header .hamburger.active {
+    background-image: url("../img/бургер (1).png");
+}
+
+.header .menu {
+    width: 100%;
+    height: 844px;
+    background-color: #f5f3f0;
+    display: none;
+    position: absolute;
+    top: 70px;
+    z-index: 9999;
+}
+
+.header .menu a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    color: #333333;
+    text-decoration: none;
+    display: flex;
+}
+
+.header .menu .close {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-image: url("../img/КРЕСТИК.png");
+    background-repeat: no-repeat;
+}
+
+.remont-pod-kluch p {
+    font-size: 32px;
+    line-height: 31px;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+}
+
+.remont-pod-kluch p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.remont-pod-kluch2 {
+    /*background-image: url("../img/remont_pod_kluch.png");*/
+    /*background-repeat: no-repeat;*/
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.remont-pod-kluch2 .proekt-v-podarok {
+    position: absolute;
+    top: -20px;
+    left: 87px;
+    background-color: #292929;
+    height: 40px;
+    width: 175px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.remont-pod-kluch2 .rasschitat-stoimost-online {
+    width: 121px;
+    height: 121px;
+    border-radius: 50%;
+    background-color: #091959;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+    position: absolute;
+    bottom: -60px;
+    left: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.remont-pod-kluch2 .rasschitat-stoimost-online span {
+    width: 51%;
+    text-align: center;
+}
+
+.advantages {
+    margin-top: 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage {
+    width: 130px;
+    height: 160px;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.advantage img {
+    margin: 0 auto;
+    display: block;
+}
+
+span.advantage-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    margin-top: 10px;
+}
+
+span.advantage-desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    margin-top: 10px;
+}
+
+.vidy-remonta .remont-example {
+    width: 350px;
+    min-height: 450px;
+    border-radius: 15px;
+    border-width: 1px;
+    box-shadow: 0px 0px 20px 0px #00000033;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.vidy-remonta .remont-example .title {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40.5px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+    color: #333333;
+}
+
+.vidy-remonta .remont-example .small-desc {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18.6px;
+    text-align: center;
+    vertical-align: middle;
+    color: #3D3D3D;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.vidy-remonta .remont-example .price {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    color: #091959;
+    padding-top: 30px;
+}
+
+.vidy-remonta .remont-example p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27.9px;
+    text-align: center;
+    vertical-align: middle;
+    color: #333333;
+
+}
+
+.vidy-remonta .remont-example ul.desc {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.vidy-remonta .remont-example ul.desc li {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    color: #3D3D3D;
+
+}
+
+.vidy-remonta .remont-example .get-smeta {
+    width: 194px;
+    height: 61px;
+    border-radius: 30px;
+    background: #091959;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.portfolio {
+    margin: 0 auto;
+}
+
+.portfolio .portfolio-item {
+    position: relative;
+    width: 390px;
+    height: 293px;
+}
+
+.portfolio .portfolio-item .shadow {
+    background: #00000099;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.portfolio .portfolio-item .title {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+}
+
+.portfolio .portfolio-item .show-result {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    color: #333333;
+    box-shadow: 0px 0px 10px 0px #FFFFFF40;
+    width: 204px;
+    height: 49px;
+    background-color: #F9F9F9;
+    border-radius: 49px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.want-remont {
+    background-image: url("../img/want-remont.png");
+    background-repeat: no-repeat;
+    height: 1100px;
+    position: relative;
+}
+
+.black-gradient {
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.want-remont .black-gradient span {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.want-remont .black-gradient p {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    z-index: 2;
+}
+
+.want-remont .black-gradient .calculator {
+    background-color: rgba(255,255,255, 0.85);
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 25px 45px;
+    position: relative;
+}
+
+.want-remont .black-gradient .calculator p {
+    color: #091959;
+    font-size: 18px;
+}
+
+.want-remont .black-gradient .calculator label {
+    color: #333333;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+}
+
+.want-remont .black-gradient .calculator select {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    height: 48px;
+    padding: 0 45px 0 20px;
+    /*-webkit-appearance: none;*/
+    /*-moz-appearance: none;*/
+    /*appearance: none;*/
+    position: relative;
+    display: inline-block;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.want-remont .black-gradient .calculator input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    height: 48px;
+    /*padding: 0 45px 0 20px;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#calculator-square {
+    width: 30px;
+    padding: 0 20px;
+}
+
+.want-remont .black-gradient .calculator select:after {
+    /*border-color: #000 transparent transparent;*/
+    /*border-style: solid;*/
+    /*border-width: 6px 5px 0;*/
+    /*bottom: 0;*/
+    /*content: "▼";*/
+    /*height: 0;*/
+    /*margin: auto;*/
+    /*pointer-events: none;*/
+    /*position: absolute;*/
+    /*right: 20px;*/
+    /*top: 0;*/
+    /*width: 0;*/
+    content: "▼";
+    padding: 0 8px;
+    font-size: 12px;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+.want-remont .black-gradient .calculator span.minus,
+.want-remont .black-gradient .calculator span.plus {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 26px;
+    vertical-align: middle;
+    color: #333333;
+    width: 40px;
+}
+
+.want-remont .black-gradient .calculator .get-rasschet {
+    width: 260px;
+    height: 60px;
+    background-color: #091959;
+    color: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.want-remont .black-gradient .calculator .chat-wa {
+    width: 260px;
+    height: 60px;
+    background-color: #129910;
+    color: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.work-steps .step {
+    width: 270px;
+    min-height: 186px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    margin-bottom: 20px;
+}
+
+.work-steps .step .point {
+    width: 54px;
+    height: 54px;
+    border: 2px #333333 solid;
+    border-radius: 50%;
+    display: block;
+}
+
+.work-steps .step p {
+    display: block;
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.work-steps .step span {
+    display: block;
+    color: #333333;
+    font-weight: 300;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.zamershik-block {
+    background-image: url("../img/Image.png");
+    background-repeat: no-repeat;
+    height: 615px;
+    background-position-y: 20px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.zamershik-block .zamershik-gradient {
+    background: linear-gradient(180deg, rgba(9, 25, 89, 0.75) 0%, #091959 100%);
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.zamershik-block .zamershik-gradient .ten-zamershika {
+    background-image: url("../img/тень замерщика.png");
+    background-repeat: no-repeat;
+    background-position-y: -6px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.zamershik-block .zamershik-gradient .ten-zamershika .zamershik {
+    background-image: url("../img/замерщик.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.zamershik-block .zamershik-gradient .ten-zamershika .zamershik p {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top: 260px;
+    padding: 0px 40px 0 20px;
+}
+
+.zamershik-block .zamershik-gradient .ten-zamershika .zamershik p.p2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top: 0px;
+    padding: 0px 40px 0 20px;
+}
+
+.zamershik-block .zamershik-gradient .ten-zamershika .zamershik .ostavit-zayavku {
+    width: 102px;
+    height: 102px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #FFFBFB99;
+    color: #333333;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.qa-block {
+    border-top: 1px solid #B5B3B3;
+    width: 350px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 18px;
+    vertical-align: middle;
+    color: #222;
+}
+
+.qa-block .qa-header {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 50px;
+}
+
+.qa-block .qa-header::after {
+    content: url("../img/qa_expand.png");
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    right: 0px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.qa-block .qa-header.active::after {
+    content: url("../img/qa_expand.png");
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    right: 0px;
+    transform: rotate(-45deg);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.qa-block .qa-content {
+    display: none;
+}
+
+.last-questions {
+    width: 350px;
+    margin: 0 auto;
+    height: 689px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding-top: 30px;
+}
+
+.last-questions p {
+    color: #333333;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.last-questions span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    padding: 0 60px;
+}
+
+.last-questions form {
+    width: 277px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.last-questions input {
+    width: 273px;
+    height: 50px;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.last-questions textarea {
+    width: 273px;
+    height: 124px;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.last-questions input[type=checkbox] {
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: inline-block;
+}
+
+label[for=last-q-agreement] {
+    display: inline-block;
+    width: 230px;
+}
+
+.last-questions input[type=submit] {
+    width: 151px;
+    height: 61px;
+    border: none;
+    background: #091959;
+    border-radius: 30px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.last-questions .chat-wa {
+    width: 151px;
+    height: 61px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background: #41be3e;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer {
+    background: #091959;
+    height: 280px;
+}
+
+.footer p, .footer p a {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    line-height: 40px;
+    padding-left: 20px;
+    display: flex;
+    text-decoration: none;
+}
+
+.footer a.policy {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    vertical-align: middle;
+    color: #FF8562;
+    padding-left: 20px;
+}
+
+.tariff-dialog {
+    width: 390px;
+    height: 844px;
+    background: #f5f3f0;
+}
+
+.tariff-dialog .close {
+    position: absolute;
+    background-image: url("../img/КРЕСТИК.png");
+    background-repeat: no-repeat;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.tariff-dialog-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 13px;
+    text-align: center;
+    vertical-align: middle;
+    color: #333333;
+
+}
+
+.tariff-dialog-titlebar {
+    padding: 25px 20px;
+}
+
+.tariff-dialog input {
+    width: 310px;
+    height: 50px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px #ABABAB solid;
+    margin-bottom: 20px;
+}
+
+.tariff-dialog form {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.tariff-dialog input[type=submit] {
+    width: 194px;
+    height: 61px;
+    border-radius: 30px;
+    background: #091959;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.tariff-dialog input[type=checkbox] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.tariff-dialog label {
+    display: inline-block;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
